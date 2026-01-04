@@ -18,6 +18,7 @@ We explore:
 
 ---
 
+```
 moneyball-analytics-project/
 │
 ├── README.md
@@ -44,6 +45,7 @@ moneyball-analytics-project/
 │   └── experience_vs_winrate.png
 │
 └── requirements.txt
+```
 
 ---
 
