@@ -18,37 +18,6 @@ We explore:
 
 ---
 
-```
-moneyball-analytics-project/
-│
-├── README.md
-│
-├── report/
-│   └── Moneyball_Analytics_Report.pdf
-│
-├── data/
-│   ├── batting.csv
-│   ├── pitching.csv
-│   ├── teams.csv
-│   ├── salary.csv
-│   └── master.csv
-│
-├── notebooks/
-│   ├── obp_team_analysis.ipynb
-│   ├── player_similarity_mds.ipynb
-│   └── chemistry_network_analysis.ipynb
-│
-├── visuals/
-│   ├── obp_vs_runs.png
-│   ├── mds_similarity_map.png
-│   ├── chemistry_vs_winrate.png
-│   └── experience_vs_winrate.png
-│
-└── requirements.txt
-```
-
----
-
 ## 📊 Data Sources
 - Lahman Baseball Database (Kaggle)
 - Files used:
@@ -108,3 +77,34 @@ moneyball-analytics-project/
 
 - Aditi Vedak
   - Exploratory analysis and report structuring
+
+---
+
+```
+moneyball-analytics-project/
+│
+├── README.md
+│
+├── report/
+│   └── Moneyball_Analytics_Report.pdf
+│
+├── data/
+│   ├── batting.csv
+│   ├── pitching.csv
+│   ├── teams.csv
+│   ├── salary.csv
+│   └── master.csv
+│
+├── notebooks/
+│   ├── obp_team_analysis.ipynb
+│   ├── player_similarity_mds.ipynb
+│   └── chemistry_network_analysis.ipynb
+│
+├── visuals/
+│   ├── obp_vs_runs.png
+│   ├── mds_similarity_map.png
+│   ├── chemistry_vs_winrate.png
+│   └── experience_vs_winrate.png
+│
+└── requirements.txt
+```
