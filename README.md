@@ -1,4 +1,4 @@
-# Moneyball Analytics: OBP, Player Similarity, and Team Chemistry
+# ⚾ Moneyball Analytics: OBP, Player Similarity, and Team Chemistry
 
 ## 📌 Project Overview
 This project analyzes how the Moneyball philosophy exploited inefficiencies
