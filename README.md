@@ -1,5 +1,16 @@
 # ⚾ Moneyball Analytics: OBP, Player Similarity, and Team Chemistry
 
+![Python](https://img.shields.io/badge/Python-Data%20Science-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Clustering-F7931E?logo=scikitlearn&logoColor=white)
+![MDS](https://img.shields.io/badge/Multidimensional-Scaling-6A1B9A)
+![K-Means](https://img.shields.io/badge/K--Means-Clustering-0A66C2)
+![Network Analysis](https://img.shields.io/badge/Graph-Network%20Analysis-00897B)
+![Sports Analytics](https://img.shields.io/badge/Sports-Moneyball%20Analytics-2E7D32)
+![Statistical Modeling](https://img.shields.io/badge/Statistical-Modeling-795548)
+![Data Visualization](https://img.shields.io/badge/Data-Visualization-FF7043)
+
 ## 📌 Project Overview
 This project analyzes how the Moneyball philosophy exploited inefficiencies
 in Major League Baseball by focusing on undervalued metrics and structural factors.
