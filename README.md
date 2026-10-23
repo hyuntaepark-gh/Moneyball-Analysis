@@ -257,32 +257,59 @@ Salary constraints, positional eligibility, candidate availability, and uncertai
 
 ## Selected Visualizations
 
-The `visuals/` directory contains charts covering:
+The following charts highlight the main stages of the research, from traditional Moneyball analysis to WAR prediction and roster optimization.
 
-- Team payroll and wins
-- OBP and runs scored
-- Player similarity and salary comparisons
-- WAR prediction accuracy
-- Ridge versus historical-baseline roster results
-- Budget sensitivity
-- Missing WAR sensitivity
-- Prediction interval reliability
+### 1. OBP and Run Production
 
-Recommended starting points:
+![OBP vs Runs](visuals/obp_vs_runs.png)
 
-**WAR Prediction Comparison**
+I examined the relationship between on-base percentage and run production to understand why OBP became an important metric in the Moneyball approach.
 
-`visuals/external_81_2013_2025_war_validation.png`
+### 2. Identifying Potentially Undervalued Players
 
-**Equal-Spending Roster Comparison**
+![Undervalued Players in 2002](visuals/undervalued_players_2002.png)
 
-`visuals/submission_78_independent_equal_spend_WAR.png`
+I compared player performance and recorded salaries to identify players who appeared relatively inexpensive based on their offensive statistics.
 
-**Budget Sensitivity**
+These were historical value candidates, not necessarily players available for acquisition.
 
-`visuals/submission_85_budget_sensitivity.png`
+### 3. WAR Prediction: Ridge vs. Historical Baseline
 
-These figures illustrate the difference between predictive model performance and downstream roster outcomes.
+![WAR Prediction Comparison](visuals/external_81_2013_2025_war_validation.png)
+
+Ridge Regression produced lower WAR prediction errors than a baseline using previous-season WAR for players with observed outcomes during 2013–2025.
+
+This raised another question: would better predictions also lead to better roster outcomes?
+
+### 4. Does Better Prediction Lead to Better Rosters?
+
+![Equal-Spending Roster Comparison](visuals/submission_78_independent_equal_spend_WAR.png)
+
+I compared hypothetical rosters built using Ridge predictions and previous-season WAR under similar spending constraints.
+
+Despite better individual prediction accuracy, Ridge-based rosters did not consistently achieve higher realized WAR.
+
+### 5. Budget Sensitivity Analysis
+
+![Budget Sensitivity](visuals/submission_85_budget_sensitivity.png)
+
+I tested how different budget levels affected roster selection and performance.
+
+The results showed that the relative performance of the strategies could change depending on the available budget.
+
+### 6. Prediction Uncertainty Over Time
+
+![Forward Rolling Conformal Prediction](visuals/external_92_forward_rolling_conformal.png)
+
+I also examined prediction interval reliability across seasons.
+
+Coverage varied over time, highlighting the importance of evaluating uncertainty rather than relying only on point predictions.
+
+### Additional Visualizations
+
+The complete collection of research charts is available in the [visuals directory](visuals/).
+
+Additional figures cover payroll efficiency, player similarity, model comparisons, missing WAR sensitivity, positional constraints, and alternative roster strategies.
 
 ---
 
